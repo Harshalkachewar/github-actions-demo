@@ -2,8 +2,7 @@ name: Docker CI Setup
 
 on:
   push:
-    branches:
-      - main  # Trigger only on push to 'main' (change if needed)
+
 
 jobs:
   build-and-push:
